@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express-path' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.0
+4 verbose install initial load of C:\wamp\www\express_dynamiv\package.json
+5 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\bootstrap\package.json
+7 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\busboy-body-parser\package.json
+8 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\connect-busboy\package.json
+9 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\cookie-parser\package.json
+10 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\debug\package.json
+11 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\ejs\package.json
+12 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\express\package.json
+13 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\fs\package.json
+14 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\jquery\package.json
+15 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\morgan\package.json
+16 verbose installManyTop reading scoped package data from C:\wamp\www\express_dynamiv\node_modules\serve-favicon\package.json
+17 info package.json fs@0.0.2 fs is also the name of a node core module.
+18 info package.json fs@0.0.2 No description
+19 info package.json fs@0.0.2 No repository field.
+20 info package.json fs@0.0.2 No README data
+21 info package.json connect-busboy@0.0.2 No license field.
+22 verbose readDependencies loading dependencies from C:\wamp\www\express_dynamiv\package.json
+23 silly cache add args [ 'express-path', null ]
+24 verbose cache add spec express-path
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'express-path',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'express-path',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: 'latest',
+25 silly cache add   type: 'tag' }
+26 silly addNamed express-path@latest
+27 verbose addNamed "latest" is being treated as a dist-tag for express-path
+28 info addNameTag [ 'express-path', 'latest' ]
+29 silly mapToRegistry name express-path
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/express-path
+33 verbose addNameTag registry:https://registry.npmjs.org/express-path not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/express-path
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 2:25:37 PM
+37 verbose request id d0f028b06f83b3f5
+38 http request GET https://registry.npmjs.org/express-path
+39 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+40 info attempt registry request try #2 at 2:26:08 PM
+41 http request GET https://registry.npmjs.org/express-path
+42 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+43 info attempt registry request try #3 at 2:27:29 PM
+44 http request GET https://registry.npmjs.org/express-path
+45 verbose stack Error: connect ETIMEDOUT 23.235.43.162:443
+45 verbose stack     at Object.exports._errnoException (util.js:870:11)
+45 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+45 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+46 verbose cwd C:\wamp\www\express_dynamiv
+47 error Windows_NT 6.3.9600
+48 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "express-path"
+49 error node v4.3.0
+50 error npm  v2.14.12
+51 error code ETIMEDOUT
+52 error errno ETIMEDOUT
+53 error syscall connect
+54 error network connect ETIMEDOUT 23.235.43.162:443
+54 error network This is most likely not a problem with npm itself
+54 error network and is related to network connectivity.
+54 error network In most cases you are behind a proxy or have bad network settings.
+54 error network
+54 error network If you are behind a proxy, please make sure that the
+54 error network 'proxy' config is set properly.  See: 'npm help config'
+55 verbose exit [ 1, true ]
